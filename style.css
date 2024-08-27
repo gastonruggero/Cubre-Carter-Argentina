@@ -11,6 +11,16 @@
 #ACAPic{
     margin-top:-100px;
 }
+.iconBar{
+    width:85%;
+    margin:auto;
+}
+.icono{
+    margin-right:20px;
+    height:32px;
+    width:auto;
+    border:1px solid gainsboro;
+}
 h5{
     margin-top: 20%;
 }
@@ -31,4 +41,13 @@ h5{
     margin: auto;
     color: whitesmoke;
     text-align: center;
+}
+footer{
+    background-color: black;
+    font-size: medium;
+    color:bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin-top: 20px;
 }
