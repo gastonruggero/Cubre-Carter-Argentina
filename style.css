@@ -1,53 +1,68 @@
-.carousel{
-    width: 85%;
+.carousel {
+
     height: 350px;
     margin: auto;
     display: block;
-    overflow: hidden;    
+    overflow: hidden;
 }
-#toyotaPic{
+
+#toyotaPic {
     margin-top: -150px;
 }
-#ACAPic{
-    margin-top:-100px;
+
+#ACAPic {
+    margin-top: -100px;
 }
-.iconBar{
-    width:85%;
-    margin:auto;
+
+.iconBar {
+    width: 85%;
+    margin: auto;
 }
-.icono{
-    margin-right:20px;
-    height:32px;
-    width:auto;
-    border:1px solid gainsboro;
+
+.icono {
+    margin-right: 20px;
+    height: 32px;
+    width: auto;
+    border: 1px solid gainsboro;
 }
-h5{
+
+h5 {
     margin-top: 20%;
 }
-.card-group{
-    width:85%;
-    max-height: 500px;
-    margin:auto;
+
+main {
+    width: 85%;
+    margin: auto;
 }
-.card-img-top{
+
+.card-group {
+
+    max-height: 500px;
+    margin: auto;
+}
+
+.card-img-top {
     width: 50%;
     height: auto;
 }
-.barraIntermedia{
-    width: 85%;
+
+.barraIntermedia {
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: medium;
-    background-color:rgb(237, 113, 113);
+    background-color: rgb(237, 113, 113);
     margin: auto;
     color: whitesmoke;
     text-align: center;
 }
-footer{
+
+footer {
+    position: fixed;
     background-color: black;
     font-size: medium;
-    color:bisque;
+    color: bisque;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     padding: 20px 0 20px 0;
-    margin-top: 20px;
+   position: relative;
 }

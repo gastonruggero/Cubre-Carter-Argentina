@@ -25,7 +25,7 @@
             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="#contacto">Contacto</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
@@ -47,7 +47,7 @@
       </div>
     </div>
   </nav>
-  <main class="position-relative">
+  <main >
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -110,11 +110,33 @@
         </div>
       </div>
     </div>
+    
+    <div class="barraIntermedia" id="contacto">
+      <h2>CONTACTO</h2>
+      </div>
+      <form>
+        <div class="form-group">
+            <label for="nombreApellido">Nombre y Apellido</label>
+            <input type="text" class="form-control" id="nombreApellido" placeholder="Nombre y Apellido" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email de Contacto</label>
+            <input type="email" class="form-control" id="email" placeholder="Email de Contacto" required>
+        </div>
+        <div class="form-group">
+            <label for="telefono">Celular o Teléfono</label>
+            <input type="tel" class="form-control" id="telefono" placeholder="Celular o Teléfono" required>
+        </div>
+        <div class="form-group">
+            <label for="consulta">Consulta</label>
+            <textarea class="form-control" id="consulta" rows="4" placeholder="Escribe tu consulta aquí" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
     <div class="barraIntermedia">
       <h2>FORMAS DE PAGO</h2>
     </div>
-    <div class="iconBar">
-      
+    <div class="iconBar">      
       <img class="icono" src="icons/mastercard.svg" alt="mastercard">
       <img class="icono"src="icons/visa.svg" alt="visa">
       <img class="icono"src="icons/bitcoin-cryptocurrency.svg" alt="bitcoin-cryptocurrency">
@@ -122,7 +144,7 @@
     </div>
   </main>
 <footer>
-  <h4>copyright 2024  Cubre Carter Argentina</h4>
+  <p>copyright 2024  Cubre Carter Argentina</p>
 </footer>
 
 
