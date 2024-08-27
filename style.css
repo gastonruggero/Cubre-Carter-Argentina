@@ -1,0 +1,34 @@
+.carousel{
+    width: 85%;
+    height: 350px;
+    margin: auto;
+    display: block;
+    overflow: hidden;    
+}
+#toyotaPic{
+    margin-top: -150px;
+}
+#ACAPic{
+    margin-top:-100px;
+}
+h5{
+    margin-top: 20%;
+}
+.card-group{
+    width:85%;
+    max-height: 500px;
+    margin:auto;
+}
+.card-img-top{
+    width: 50%;
+    height: auto;
+}
+.barraIntermedia{
+    width: 85%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    background-color:rgb(237, 113, 113);
+    margin: auto;
+    color: whitesmoke;
+    text-align: center;
+}
